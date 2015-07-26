@@ -44,7 +44,7 @@ class PessoaEncapsulada
     }
 
     function retornaSobrenomePrimeiro(){
-        return $this->sobreNome.', '.$this->primeiroNome." ".$this->nomeMeio;
+        return $this->getSobreNome().', '.$this->getPrimeiroNome()." ".$this->getNomeMeio();
     }
 
 }
